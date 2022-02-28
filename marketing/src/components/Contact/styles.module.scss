@@ -1,0 +1,125 @@
+.container {
+  width: 100%;
+  max-height: 552px;
+
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 19.0576px 10.1641px 12.7051px 2.54102px rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+  margin-top: -200px;
+
+  @media (max-width: 500px) {
+    margin-top: -350px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: left;
+    color: #a76c75;
+    font-family: "Montserrat";
+
+    margin-bottom: 34px;
+
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    color: #ffffff;
+
+    text-shadow: 2px 2px 0px #fd3373;
+  }
+
+  input {
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 2.42191px solid #fd3373;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: none;
+    height: 36px;
+    margin-bottom: 30px;
+    font-size: 14px;
+
+    padding: 10px;
+  }
+
+  p {
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+
+    letter-spacing: 0.015em;
+
+    margin-bottom: 5px;
+  }
+
+  button {
+    border-radius: 25px;
+    height: 45px;
+    width: 183px;
+    border: none;
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #44f9bd;
+    color: #282828;
+    box-shadow: 0px 3px 7.5px rgba(40, 40, 40, 0.5);
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #a76c75;
+    font-family: "GoldenBookBold";
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+
+    input {
+      width: 100%;
+      border-radius: 10px;
+      background: #ffffff;
+
+      box-sizing: border-box;
+      height: 40px;
+      margin-bottom: 30px;
+
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
+
+.loading {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #fd3373;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  margin-left: 80px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

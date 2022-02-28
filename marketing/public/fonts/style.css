@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "GoldenBook";
+  src: url("/fonts/GoldenBookRegular");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GoldenBook";
+  src: url("/fonts/GoldenBookBold");
+  font-style: normal;
+  font-weight: 700;
+}
